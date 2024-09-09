@@ -1,8 +1,8 @@
 function makeArray(firstArray, secondArray, maxLength){
     
-    totalArray = firstArray.concat(secondArray);
+   let totalArray = firstArray.concat(secondArray);
     
-    total=totalArray.slice(0,maxLength);
+   let total=totalArray.slice(0,maxLength);
     return total;
     
     
